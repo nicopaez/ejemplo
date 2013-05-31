@@ -1,1 +1,1 @@
-archivo2.txt
+archivo2.txt zaraza
