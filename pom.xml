@@ -18,24 +18,8 @@
 			            <id>make-assembly-static</id>
 			            <phase>package</phase>
                         <configuration>
-                            <descriptor>
-                            <assembly>
-                                <id>static</id>
-                                
-                                <formats>
-                                    <format>zip</format>
-                                </formats>
-                                
-                                <includeBaseDirectory>false</includeBaseDirectory>
-                                
-                                <fileSets>
-                                    <fileSet>
-                                        <outputDirectory></outputDirectory>
-                                        <directory>src</directory>
-                                    </fileSet>
-                                </fileSets>
-                            </assembly>
-                            <descriptor>
+                                <descriptor>src/assembly.xml</descriptor>
+                        
                         </configuration>
 	        			<goals>
 	          				<goal>single</goal>
