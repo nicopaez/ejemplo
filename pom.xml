@@ -18,7 +18,7 @@
 			            <id>make-assembly-static</id>
 			            <phase>package</phase>
                         <configuration>
-
+                            <descriptor>
                             <assembly>
                                 <id>static</id>
                                 
@@ -35,7 +35,7 @@
                                     </fileSet>
                                 </fileSets>
                             </assembly>
-                        
+                            </descriptor>
                         </configuration>
 	        			<goals>
 	          				<goal>single</goal>
