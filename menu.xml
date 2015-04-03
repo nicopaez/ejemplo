@@ -43,5 +43,13 @@
       <item code="REPORTES_RANKING_LAYER_ENABLE_MENSUAL" name="Mensual" role="ROL@929" enable="true" visible="true" />
     </item>
   </item>
+  <item code="ALERTAS" name="Alertas" role="ROL@936" enable="true" visible="true">
+    <item code="CAMPANIAS" name="CAMPANIAS" role="ROL@931" enable="true" visible="true">
+      <item code="CAMPANIAS_ALTA" name="CAMPANIAS_ALTA" role="ROL@932" enable="true" visible="true" />
+      <item code="CAMPANIAS_CONSULTA" name="CAMPANIAS_CONSULTA" role="ROL@933" enable="true" visible="true" />
+    </item>
+    <item code="MENSAJES_CONSULTA" name="MENSAJES_CONSULTA" role="ROL@934" enable="true" visible="true" />
+    <item code="CAMPANIAS_GENERATECSV" name="CAMPANIAS_GENERATECSV" role="ROL@935" enable="true" visible="true" />
+  </item>
 </menu>
 
