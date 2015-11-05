@@ -1,5 +1,3 @@
-feature.
-
-
-1
-cambio
+edicion texto
+segunda edicion
+tercera edicion
