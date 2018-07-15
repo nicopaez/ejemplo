@@ -1,0 +1,1 @@
+manzana en ingles es <translate(EN%%manzana)>
