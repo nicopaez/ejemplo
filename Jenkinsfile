@@ -5,7 +5,7 @@ pipeline {
         stage('stage in one agent') {
             agent {
                 docker {
-                    image 'obe-builder:1.3.0'
+                    image 'ruby:2.5.1'
                 }
             }
             steps {
@@ -17,7 +17,7 @@ pipeline {
         stage('stage in other agent') {
             agent {
                 docker {
-                    image 'obe-builder:1.2.0'
+                    image 'ruby:2.5.1'
                 }
             }
             steps {
