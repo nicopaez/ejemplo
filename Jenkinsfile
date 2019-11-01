@@ -15,6 +15,11 @@ pipeline {
         }
 
         stage('stage in other agent') {
+            agent {
+                docker {
+                    image 'obe-builder:1.2.0'
+                }
+            }
             steps {
                 sh "git show"
             }
