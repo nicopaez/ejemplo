@@ -10,6 +10,7 @@ pipeline {
             }
             steps {
                 sh "git show"
+                sh "ls -1 | wc -l"
                 input "sigo?"
             }
         }
@@ -21,6 +22,7 @@ pipeline {
                 }
             }
             steps {
+                sh "ls -1 | wc -l"
                 sh "git show"
             }
         }
