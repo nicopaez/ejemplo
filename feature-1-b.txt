@@ -1,1 +1,4 @@
 feature.1
+
+esto es una prueba de edicion de texto con vim de ignacio :D
+
